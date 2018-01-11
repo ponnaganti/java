@@ -12,5 +12,8 @@ node ('master'){
                 echo 'Deploying....'
             
         }
+		stage('coverage') {
+                echo 'coverage....'
+            
     
 }
